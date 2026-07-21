@@ -1,0 +1,6 @@
+{
+    "account": "XXXXXXXXXXXXXXXX",
+    "url": "XXXXX-XXXXX.snowflakecomputing.com",
+    "private_key_file": "rsa key here",
+    "role": "accountadmin"
+}
