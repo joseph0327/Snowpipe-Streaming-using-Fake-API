@@ -19,34 +19,40 @@ Both pipelines use Python applications to generate or consume events, buffer rec
 
 # Architecture
 
-## Banking Transaction Stream
-MOBILE APP
-|
-WEB APP
-|
-ATM SYSTEM
-|
-v
-Python Streaming Producer
-|
-v
-Snowflake Streaming Ingest API
-|
-v
-TRANSACTIONS_TABLE_STREAMING
+# Banking Transaction Stream
+```text
+          MOBILE APP
+              |
+              |
+          WEB APP
+              |
+              |
+          ATM SYSTEM
+              |
+              v
+   Python Streaming Producer
+              |
+              v
+ Snowflake Streaming Ingest API
+              |
+              v
+ TRANSACTIONS_TABLE_STREAMING
+```
 
 
-## Healthcare Event Stream
+# Healthcare Event Stream
+```text
 Patient Monitoring API
-|
-v
+          |
+          v
 Python Streaming Consumer
-|
-v
+          |
+          v
 Snowflake Streaming Ingest API
-|
-v
+          |
+          v
 PATIENT_EVENTS_STREAM
+```
 ---
 
 # Technologies
